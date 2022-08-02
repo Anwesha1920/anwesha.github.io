@@ -1,0 +1,74 @@
+body {
+    margin: 0px;
+    font-family: 'Arial', sans-serif;
+    background: url("back.jpg");
+    background-size: cover;
+}
+header {
+    background: rgb(0, 0, 0);
+    color: white;
+    font-weight: bold;
+    padding: 30px 10px;
+}
+/*img {
+    display: block;
+    margin-left: 200px;
+}*/
+header>h2 {
+    display: inline-block;
+} 
+.home {
+    margin-left: 744px;
+}
+span {
+    margin: 14px;
+    padding: 30px 10px;
+}
+span:hover {
+    cursor: pointer;
+    background-color: rgb(63, 58, 58);
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+article>div {
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 40px 60px;
+    margin-right: 1200px;
+    text-align: center;
+    position: relative;
+    left: 24%;
+    top: 200px;
+    font-size: 20px;
+    width: 590px;
+}
+/*button {
+    background: rgba(0, 255, 0, 0.571);
+}*/
+input[type=text], input[type=password] {
+    padding: 5px;
+    background: white;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+#usrnam {
+    width: 5.12cm;
+}
+p {
+    display: inline;
+    text-align: left;
+    font-size: 15px;
+}
+p:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.uniq {
+    margin-left: 200px;
+    color: white;
+}
+.uniq:hover {
+    text-decoration: underline;
+}
