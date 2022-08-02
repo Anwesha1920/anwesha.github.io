@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- <link rel="stylesheet" href="more2.css"> -->
+        <style>
+            body {
+                margin: 0px;
+                font-family: 'Arial', sans-serif;
+                background: url("back.jpg");
+                background-size: cover;
+            }
+            header {
+                background: rgb(0, 0, 0);
+                color: white;
+                font-weight: bold;
+                padding: 30px 10px;
+            }
+            /*img {
+                display: block;
+                margin-left: 200px;
+            }*/
+            header>h2 {
+                display: inline-block;
+            } 
+            .home {
+                margin-left: 744px;
+            }
+            span {
+                margin: 14px;
+                padding: 30px 10px;
+            }
+            span:hover {
+                cursor: pointer;
+                background-color: rgb(63, 58, 58);
+            }
+            a {
+                text-decoration: none;
+                color: white;
+            }
+            article>div {
+                background: rgba(0, 0, 0, 0.8);
+                color: white;
+                padding: 40px 60px;
+                margin-right: 1200px;
+                text-align: center;
+                position: relative;
+                left: 24%;
+                top: 130px;
+                font-size: 20px;
+                width: 590px;
+            }
+            input[type=text], input[type=password] {
+                background: white;
+                padding: 5px;
+                margin: 1px 0px;
+                border-radius: 5px;
+                width: 7cm;
+            }
+        </style>
+        <title>Registration window</title>
+    </head>
+    <body>
+        <header>
+            <!--<img src="reader.png" alt="library" width="60" height="60">-->
+
+            <h2><i>LIBRARY MANAGEMENT SYSTEM</i></h2>
+            <span class="home"><a href="library.html">HOME</a></span>
+            <span class="books">BOOKS</span>
+            <!--<span class="stdlg">LOGIN</span>-->
+            <span class="help">HELP?</span>
+        </header>    
+        
+        <article>
+            <div>
+                User Registration Form <br><br>
+                <input type="text" id="fname" placeholder="First name"> <br>
+                <input type="text" id="lname" placeholder="Last name"> <br>   
+                <input type="text" id="usrid" placeholder="User ID"> <br>   
+                <input type="password" id="pass" placeholder="Password"> <br>   
+                <input type="text" id="roll" placeholder="Roll no."> <br>   
+                <input type="text" id="Email" placeholder="Email ID"> <br>
+                
+                <button id="btn2">Sign up</button>
+            </div>
+        </article>
+        
+        <script src="library.js"></script>
+    </body>
+</html>
